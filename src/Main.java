@@ -14,7 +14,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-//OneTask
+//OneTask(Сумма)
 
         int[] arr = generateRandomArray();
         System.out.println(Arrays.toString(arr));
@@ -25,7 +25,7 @@ public class Main {
         System.out.println("Сумма трат за месяц составила " + sum + " рублей.");
 
 
-//TwoTask
+//TwoTask(Минимум,Максимум)
 
         int[] arr1 = generateRandomArray();
         System.out.println(Arrays.toString(arr1));
@@ -41,7 +41,7 @@ public class Main {
         }
         System.out.println("Минимальная сумма трат за день составила " + maximum + " рублей. Максимальная сумма трат за день составила " + minimum + " рублей.");
 
-//ThreeTask
+//ThreeTask(Средняя сумма)
 
         System.out.println(Arrays.toString(arr));
         float meanMoney = 0f;
@@ -50,7 +50,7 @@ public class Main {
         }
         System.out.println("Средняя сумма трат за месяц составила " + meanMoney);
 
-//ForeTask
+//ForeTask(Обратный порядок)
 
         char[] reverseFullName = {'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
         for (char c = 10; c < reverseFullName.length; c--) {
